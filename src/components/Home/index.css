@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.home-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  height: 100px;
+  width: 100px;
+}
+.light {
+  background-color: #ffffff;
+}
+.dark {
+  background-color: #000000;
+  color: #000000;
+}
+.lightText {
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.darkText {
+  font-family: 'Roboto';
+
+  color: #ffffff;
+}

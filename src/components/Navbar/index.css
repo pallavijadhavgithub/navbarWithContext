@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.navbar-container {
+  height: 15vh;
+  padding: 20px;
+  border-bottom: 1px solid #334155;
+}
+.header-component {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-image {
+  width: 60px;
+  height: 50px;
+}
+.theme-image {
+  width: 60px;
+  height: 50px;
+}
+.unorder-list {
+  display: flex;
+  list-style-type: none;
+  text-decoration: blink;
+}
+.link-item {
+  margin-right: 17px;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+.lightTheme {
+  background-color: #f8fafc;
+}
+.darkTheme {
+  background-color: #333333;
+}
+.lightLink {
+  color: #171f46;
+}
+.darkLink {
+  color: #ffffff;
+}
+.button {
+  background-color: transparent;
+  border: 0;
+}
